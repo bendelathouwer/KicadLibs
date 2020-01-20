@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# vibmotor
+#
+DEF vibmotor MOT? 0 40 Y Y 1 F N
+F0 "MOT?" 100 200 50 H V C CNN
+F1 "vibmotor" -150 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 102 0 1 0 N
+T 0 0 0 50 0 0 0 M Normal 0 C C
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

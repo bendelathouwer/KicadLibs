@@ -1,6 +1,35 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# header16pins
+#
+DEF header16pins con? 0 40 Y Y 1 F N
+F0 "con?" 50 -250 50 V V C CNN
+F1 "header16pins" 50 150 50 V V C CNN
+F2 "" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+S 0 450 150 -1200 0 1 0 f
+X ~ 1 -200 400 200 R 40 40 1 1 B
+X ~ 10 -200 -500 200 R 40 40 1 1 B
+X ~ 11 -200 -600 200 R 40 40 1 1 B
+X ~ 12 -200 -700 200 R 40 40 1 1 B
+X ~ 13 -200 -800 200 R 40 40 1 1 B
+X ~ 14 -200 -900 200 R 40 40 1 1 B
+X ~ 15 -200 -1000 200 R 40 40 1 1 B
+X ~ 16 -200 -1100 200 R 40 40 1 1 B
+X ~ 17 -200 -1200 200 R 40 40 1 1 B
+X ~ 2 -200 300 200 R 40 40 1 1 B
+X ~ 3 -200 200 200 R 40 40 1 1 B
+X ~ 4 -200 100 200 R 40 40 1 1 B
+X ~ 5 -200 0 200 R 40 40 1 1 B
+X ~ 6 -200 -100 200 R 40 40 1 1 B
+X ~ 7 -200 -200 200 R 40 40 1 1 B
+X ~ 8 -200 -300 200 R 40 40 1 1 B
+X ~ 9 -200 -400 200 R 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
 # vibmotor
 #
 DEF vibmotor MOT? 0 40 Y Y 1 F N

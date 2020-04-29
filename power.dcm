@@ -310,6 +310,21 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP 5V_MIDI
+D power-flag symbol Waarde 5V_MIDI
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP 5V_POE
+D power-flag symbol Waarde 5V_POE
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP 5V_USB
+D power-flag symbol Waarde 5V_USB
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP AC
 D power-flag symbol (alternating current)
 K Power Flag Symbol
@@ -471,6 +486,11 @@ $ENDCMP
 #
 $CMP VSSA
 D negative power-supply/ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP Vout
+D power-flag symbol Vout
 K Power Flag Symbol
 $ENDCMP
 #

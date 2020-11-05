@@ -1,0 +1,224 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 629104190121
+#
+DEF 629104190121 J 0 30 Y Y 1 F N
+F0 "J" 350 450 50 H V L CNN
+F1 "629104190121" 350 350 50 H V L CNN
+F2 "629104190121" 350 250 50 H I L CNN
+F3 "http://katalog.we-online.de/em/datasheet/629104190121.pdf" 350 150 50 H I L CNN
+F4 "WURTH ELEKTRONIK - 629104190121 - CONN, USB 2 TYPE A, RCPT, 4POS, SMT" 350 50 50 H I L CNN "Description"
+F5 "710-629104190121" 350 -150 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/629104190121?qs=lBTPRtX1sU8FkkdswgHZbg%3D%3D" 350 -250 50 H I L CNN "Mouser Price/Stock"
+F7 "Wurth Elektronik" 350 -350 50 H I L CNN "Manufacturer_Name"
+F8 "629104190121" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 0 450 300 0 0 1 0 f
+X VBUS 1 500 350 200 L 50 50 0 0 P
+X D- 2 500 250 200 L 50 50 0 0 P
+X D+ 3 500 150 200 L 50 50 0 0 P
+X GND 4 500 50 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# HX1198FNLT
+#
+DEF HX1198FNLT T 0 30 Y Y 1 F N
+F0 "T" 750 300 50 H V L CNN
+F1 "HX1198FNLT" 750 200 50 H V L CNN
+F2 "HX1198FNLT" 750 100 50 H I L CNN
+F3 "http://productfinder.pulseeng.com/products/datasheets/HX1198FNL.pdf" 750 0 50 H I L CNN
+F4 "Transformers Audio & Signal 100BaseTX SMD NonPoE 350uH 1-Port" 750 -100 50 H I L CNN "Description"
+F5 "Pulse" 750 -300 50 H I L CNN "Manufacturer_Name"
+F6 "HX1198FNLT" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "HX1198FNLT" 750 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/hx1198fnlt/pulse-electronics-corporation" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "673-HX1198FNLT" 750 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1198FNLT?qs=tJ9riMc3cOdxYfOUFXg7qA%3D%3D" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 900 -600 200 L 50 50 0 0 P
+X 11 11 900 -500 200 L 50 50 0 0 P
+X 12 12 900 -400 200 L 50 50 0 0 P
+X 13 13 900 -300 200 L 50 50 0 0 P
+X 14 14 900 -200 200 L 50 50 0 0 P
+X 15 15 900 -100 200 L 50 50 0 0 P
+X 16 16 900 0 200 L 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 900 -700 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# NE555DR
+#
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# NE8FAH-C5
+#
+DEF NE8FAH-C5 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "NE8FAH-C5" 750 200 50 H V L CNN
+F2 "NE8FAHC5" 400 -750 50 H I L CNN
+F3 "https://www.neutrik.com/media/10049/download/ne8fah-c5-1.pdf?v=1" 400 -650 50 H I L CNN
+F4 "NEUTRIK - NE8FAH-C5 - CONNECTOR, RJ45, JACK, 8P8C, CAT5E" 400 -550 50 H I L CNN "Description"
+F5 "28.7" 150 -600 50 H I L CNN "Height"
+F6 "568-NE8FAH-C5" 400 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Neutrik/NE8FAH-C5?qs=yAJ577jGV73mSHthIeMdNw%3D%3D" 400 -250 50 H I L CNN "Mouser Price/Stock"
+F8 "Neutrik" 400 -150 50 H I L CNN "Manufacturer_Name"
+F9 "NE8FAH-C5" 400 -50 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 200 100 350 -950 0 1 0 f
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X G1 G1 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# NE8FBV-C5-LED1
+#
+DEF NE8FBV-C5-LED1 J 0 30 Y Y 1 F N
+F0 "J" 400 -250 50 V V L CNN
+F1 "NE8FBV-C5-LED1" 400 -1050 50 V V L CNN
+F2 "NE8FBVC5LED1" 500 -1050 50 V I L CNN
+F3 "" -600 -550 50 H I L CNN
+F4 "28.7" 350 -1150 50 H I L CNN "Height"
+DRAW
+S 200 50 550 -1200 0 1 0 f
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 0 -1000 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SS-52000-001
+#
+DEF SS-52000-001 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SS-52000-001" 750 200 50 H V L CNN
+F2 "SS52000001" 750 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/ss-52000-001/bel-group" 750 0 50 H I L CNN
+F4 "STEWART CONNECTOR - SS-52000-001 - USB CONN, 3.0 TYPE A, RCPT, 9POS, TH" 750 -100 50 H I L CNN "Description"
+F5 "6.99" 750 -200 50 H I L CNN "Height"
+F6 "Bel-Stewart" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SS-52000-001" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "SS-52000-001" 750 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ss-52000-001/bel-group" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "530-SS-52000-001" 750 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Stewart-Connector-Bel/SS-52000-001?qs=0lQeLiL1qya4ej1LY0WreQ%3D%3D" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 900 0 200 L 50 50 0 0 P
+X 8 8 900 -100 200 L 50 50 0 0 P
+X 9 9 900 -200 200 L 50 50 0 0 P
+X MH1 MH1 900 -300 200 L 50 50 0 0 P
+X MH2 MH2 900 -400 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SS-7188S-A-NF
+#
+DEF SS-7188S-A-NF J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SS-7188S-A-NF" 250 350 50 H V L CNN
+F2 "SS-7188S-A-NF" 250 250 50 H I L CNN
+F3 "" 250 150 50 H I L CNN
+F4 "Bel-Stewart Cat5e RJ45 Connector Socket, Shielded, Right Angle, Through Hole" 250 50 50 H I L CNN "Description"
+F5 "530-SS-7188S-A-NF" 250 -150 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Stewart-Connector-Bel/SS-7188S-A-NF?qs=FESYatJ8odJ%252BI%2FN%2FnbWjsA%3D%3D" 250 -250 50 H I L CNN "Mouser Price/Stock"
+F7 "Bel-Stewart" 250 -350 50 H I L CNN "Manufacturer_Name"
+F8 "SS-7188S-A-NF" 250 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 0 350 200 -450 0 1 0 f
+X 1 1 -200 300 200 R 50 50 0 0 P
+X 2 2 -200 200 200 R 50 50 0 0 P
+X 3 3 -200 100 200 R 50 50 0 0 P
+X 4 4 -200 0 200 R 50 50 0 0 P
+X 5 5 -200 -100 200 R 50 50 0 0 P
+X 6 6 -200 -200 200 R 50 50 0 0 P
+X 7 7 -200 -300 200 R 50 50 0 0 P
+X 8 8 -200 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NE8FAH-C5
+#/649297/39225/2.47/9/4/Connector
+DEF NE8FAH-C5 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "NE8FAH-C5" 750 200 50 H V L CNN
+F2 "NE8FAHC5" 750 100 50 H I L CNN
+F3 "https://www.neutrik.com/media/10049/download/ne8fah-c5-1.pdf?v=1" 750 0 50 H I L CNN
+F4 "NEUTRIK - NE8FAH-C5 - CONNECTOR, RJ45, JACK, 8P8C, CAT5E" 750 -100 50 H I L CNN "Description"
+F5 "28.7" 750 -200 50 H I L CNN "Height"
+F6 "Neutrik" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NE8FAH-C5" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "NE8FAH-C5" 750 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "568-NE8FAH-C5" 750 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Neutrik/NE8FAH-C5?qs=yAJ577jGV73mSHthIeMdNw%3D%3D" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 900 0 200 L 50 50 0 0 P
+X 7 7 900 -100 200 L 50 50 0 0 P
+X 8 8 900 -200 200 L 50 50 0 0 P
+X G1 G1 900 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

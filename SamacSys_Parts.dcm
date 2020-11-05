@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 629104190121
+D WURTH ELEKTRONIK - 629104190121 - CONN, USB 2 TYPE A, RCPT, 4POS, SMT
+F http://katalog.we-online.de/em/datasheet/629104190121.pdf
+$ENDCMP
+#
+$CMP HX1198FNLT
+D Transformers Audio & Signal 100BaseTX SMD NonPoE 350uH 1-Port
+F http://productfinder.pulseeng.com/products/datasheets/HX1198FNL.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NE8FAH-C5
+D NEUTRIK - NE8FAH-C5 - CONNECTOR, RJ45, JACK, 8P8C, CAT5E
+K
+F https://www.neutrik.com/media/10049/download/ne8fah-c5-1.pdf?v=1
+$ENDCMP
+#
+$CMP NE8FBV-C5-LED1
+D NEUTRIK - NE8FBV-C5-LED1 - CONNECTOR, RJ45, JACK, 8P8C, CAT5E
+$ENDCMP
+#
+$CMP SS-52000-001
+D STEWART CONNECTOR - SS-52000-001 - USB CONN, 3.0 TYPE A, RCPT, 9POS, TH
+F https://www.arrow.com/en/products/ss-52000-001/bel-group
+$ENDCMP
+#
+$CMP SS-7188S-A-NF
+D Bel-Stewart Cat5e RJ45 Connector Socket, Shielded, Right Angle, Through Hole
+$ENDCMP
+#
+#End Doc Library

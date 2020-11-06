@@ -1,6 +1,39 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 3pin_connector
+#
+DEF 3pin_connector con 0 40 Y Y 1 F N
+F0 "con" 0 -50 50 V V C CNN
+F1 "3pin_connector" -100 -50 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 250 100 -350 1 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 I
+X ~ 2 -250 -100 100 R 50 50 1 1 I
+X ~ 3 -250 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 6pin_con
+#
+DEF 6pin_con con 0 40 Y Y 1 F N
+F0 "con" 50 -200 50 V V C CNN
+F1 "6pin_con" 150 -200 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 50 250 -550 0 1 0 f
+X ~ 1 -100 0 100 R 50 50 1 1 U
+X ~ 2 -100 -100 100 R 50 50 1 1 U
+X ~ 3 -100 -200 100 R 50 50 1 1 U
+X ~ 4 -100 -300 100 R 50 50 1 1 U
+X ~ 5 -100 -400 100 R 50 50 1 1 U
+X ~ 6 -100 -500 100 R 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
 # S88
 #
 DEF S88 con 0 40 Y Y 1 F N
@@ -55,6 +88,36 @@ X TX 6 -200 -400 200 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# con_2pin
+#
+DEF con_2pin con 0 40 Y Y 1 F N
+F0 "con" 150 0 50 V V C CNN
+F1 "con_2pin" 50 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 100 100 -100 1 1 0 f
+X ~ 1 -150 50 100 R 50 50 1 1 U
+X ~ 2 -150 -50 100 R 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# conn_4pin
+#
+DEF conn_4pin CON 0 40 Y Y 1 F N
+F0 "CON" 50 100 50 H V C CNN
+F1 "conn_4pin" 50 -150 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 50 150 -350 0 1 0 f
+X ~ 1 -100 0 100 R 50 50 1 1 I
+X ~ 2 -100 -100 100 R 50 50 1 1 I
+X ~ 3 -100 -200 100 R 50 50 1 1 I
+X ~ 4 -100 -300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # icsp
 #
 DEF icsp con 0 40 Y Y 1 F N
@@ -88,6 +151,48 @@ X VDD 2 -200 100 197 R 50 50 1 1 W
 X MOSI 4 -200 -100 197 R 50 50 1 1 B
 X ~RESET 5 -200 -200 197 R 50 50 1 1 B
 X GND 6 -200 -300 197 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# rj45
+#
+DEF rj45 con 0 40 Y Y 1 F N
+F0 "con" 50 -400 50 V V C CNN
+F1 "rj45" 50 -600 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 50 200 -950 0 1 0 f
+X ~ 1 -100 0 100 R 50 50 1 1 U
+X s2 10 -100 -900 100 R 50 50 1 1 U
+X ~ 2 -100 -100 100 R 50 50 1 1 U
+X ~ 3 -100 -200 100 R 50 50 1 1 U
+X ~ 4 -100 -300 100 R 50 50 1 1 U
+X ~ 5 -100 -400 100 R 50 50 1 1 U
+X ~ 6 -100 -500 100 R 50 50 1 1 U
+X ~ 7 -100 -600 100 R 50 50 1 1 U
+X ~ 8 -100 -700 100 R 50 50 1 1 U
+X s1 9 -100 -800 100 R 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# solder_jumper3
+#
+DEF solder_jumper3 j 0 40 Y Y 1 F N
+F0 "j" 0 100 50 H V C CNN
+F1 "solder_jumper3" 0 200 50 H V C CNN
+F2 "" -100 150 50 H I C CNN
+F3 "" -100 150 50 H I C CNN
+DRAW
+A -100 0 50 -899 899 0 1 0 F -100 -50 -100 50
+A 0 -100 50 1 -1801 1 1 0 F 50 -100 -50 -100
+A 100 0 50 901 -901 1 1 0 F 100 50 100 -50
+P 2 0 1 0 -100 50 -100 -50 N
+P 2 1 1 0 -50 -100 50 -100 N
+P 2 1 1 0 100 -50 100 50 N
+X ~ 1 -200 0 100 R 50 50 1 1 U
+X ~ 2 0 -200 100 U 50 50 1 1 U
+X ~ 3 200 0 100 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #

@@ -210,6 +210,23 @@ X ~ 3 200 0 100 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
+# solderjumper_2pin
+#
+DEF solderjumper_2pin con 0 40 Y Y 1 F N
+F0 "con" 0 -100 50 H V C CNN
+F1 "solderjumper_2pin" 0 150 50 H V C CNN
+F2 "" 100 500 50 H I C CNN
+F3 "" 100 500 50 H I C CNN
+DRAW
+A -100 0 50 -899 899 1 1 0 F -100 -50 -100 50
+A 100 0 50 901 -901 1 1 0 F 100 50 100 -50
+P 2 1 1 0 -100 50 -100 -50 N
+P 2 1 1 0 100 -50 100 50 N
+X ~ 1 -200 0 100 R 50 50 1 1 U
+X ~ 2 200 0 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
 # usb_micro
 #
 DEF usb_micro con 0 40 Y Y 1 F N

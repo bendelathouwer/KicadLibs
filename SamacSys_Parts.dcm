@@ -34,4 +34,22 @@ $CMP SS-7188S-A-NF
 D Bel-Stewart Cat5e RJ45 Connector Socket, Shielded, Right Angle, Through Hole
 $ENDCMP
 #
+$CMP 615008140621
+D Wurth Elektronik Female RJ45 Connector Right Angle Through Hole
+K
+F http://katalog.we-online.de/em/datasheet/615008140621.pdf
+$ENDCMP
+#
+$CMP 65100516121
+D WR-COM USB Connector Mini horizontal SMD Wurth Elektronik WR-COM Series Right Angle SMT Type B Mini USB Connector Receptacle, 30 V ac, 1A
+K
+F 
+$ENDCMP
+#
+$CMP ICL3232EIBNZ-T
+D RS-232 +/-15kV ESD Protected, +3V to +5.5V, 1A, 250kbps, RS-232 Transmitters/Receivers
+K
+F https://www.renesas.com/en-us/www/doc/datasheet/icl3221e-22e-23e-32e-41e-43e.pdf
+$ENDCMP
+#
 #End Doc Library

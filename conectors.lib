@@ -16,6 +16,23 @@ X ~ 3 -250 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# 5pin_con
+#
+DEF 5pin_con con 0 40 Y Y 1 F N
+F0 "con" 0 -100 50 V V C CNN
+F1 "5pin_con" -100 0 50 V V C CNN
+F2 "" -50 -400 50 H I C CNN
+F3 "" -50 -400 50 H I C CNN
+DRAW
+S -150 250 100 -350 1 1 0 f
+X ~ 1 -250 150 100 R 50 50 1 1 U
+X ~ 2 -250 50 100 R 50 50 1 1 U
+X ~ 3 -250 -50 100 R 50 50 1 1 U
+X ~ 4 -250 -150 100 R 50 50 1 1 U
+X ~ 5 -250 -250 100 R 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
 # 6pin_con
 #
 DEF 6pin_con con 0 40 Y Y 1 F N
@@ -108,8 +125,8 @@ ENDDEF
 #
 # battery_con
 #
-DEF battery_con CON 0 40 Y Y 1 F N
-F0 "CON" 0 150 50 H V C CNN
+DEF battery_con con 0 40 Y Y 1 F N
+F0 "con" 0 150 50 H V C CNN
 F1 "battery_con" 150 100 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -136,8 +153,8 @@ ENDDEF
 #
 # conn_4pin
 #
-DEF conn_4pin CON 0 40 Y Y 1 F N
-F0 "CON" 50 100 50 H V C CNN
+DEF conn_4pin con 0 40 Y Y 1 F N
+F0 "con" 50 100 50 H V C CNN
 F1 "conn_4pin" 50 -150 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN

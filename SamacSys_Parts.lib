@@ -221,4 +221,91 @@ P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 615008140621
+#/576467/39225/2.47/10/4/Connector
+DEF 615008140621 J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "615008140621" 850 400 50 H V L CNN
+F2 "615008140621" 850 300 50 H I L CNN
+F3 "http://katalog.we-online.de/em/datasheet/615008140621.pdf" 850 200 50 H I L CNN
+F4 "Wurth Elektronik Female RJ45 Connector Right Angle Through Hole" 850 100 50 H I L CNN "Description"
+F5 "" 850 0 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 850 -100 50 H I L CNN "Manufacturer_Name"
+F7 "615008140621" 850 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -300 50 H I L CNN "Arrow Part Number"
+F9 "" 850 -400 50 H I L CNN "Arrow Price/Stock"
+F10 "710-615008140621" 850 -500 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/615008140621?qs=rS3zZhy2AQP7iBpY6R1M5A%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 600 -500 200 U 50 50 0 0 P
+X 2 2 600 500 200 D 50 50 0 0 P
+X 3 3 500 -500 200 U 50 50 0 0 P
+X 4 4 500 500 200 D 50 50 0 0 P
+X 5 5 400 -500 200 U 50 50 0 0 P
+X 6 6 400 500 200 D 50 50 0 0 P
+X 7 7 300 -500 200 U 50 50 0 0 P
+X 8 8 300 500 200 D 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 65100516121
+#/253695/39225/2.47/5/4/Connector
+DEF 65100516121 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "65100516121" 650 200 50 H V L CNN
+F2 "65100516121" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "WR-COM USB Connector Mini horizontal SMD Wurth Elektronik WR-COM Series Right Angle SMT Type B Mini USB Connector Receptacle, 30 V ac, 1A" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "710-65100516121" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/65100516121?qs=rS3zZhy2AQPLyCguT204Og%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "65100516121" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ICL3232EIBNZ-T
+#/1924942/39225/2.47/16/4/Integrated Circuit
+DEF ICL3232EIBNZ-T IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "ICL3232EIBNZ-T" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 1050 100 50 H I L CNN
+F3 "https://www.renesas.com/en-us/www/doc/datasheet/icl3221e-22e-23e-32e-41e-43e.pdf" 1050 0 50 H I L CNN
+F4 "RS-232 +/-15kV ESD Protected, +3V to +5.5V, 1A, 250kbps, RS-232 Transmitters/Receivers" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "968-ICL3232EIBNZ-T" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Renesas-Intersil/ICL3232EIBNZ-T?qs=sIflSk8B27YVZeRbTu%252B9xg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Renesas Electronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ICL3232EIBNZ-T" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X C1+ 1 0 0 200 R 50 50 0 0 P
+X V+ 2 0 -100 200 R 50 50 0 0 P
+X C1- 3 0 -200 200 R 50 50 0 0 P
+X C2+ 4 0 -300 200 R 50 50 0 0 P
+X C2- 5 0 -400 200 R 50 50 0 0 P
+X V- 6 0 -500 200 R 50 50 0 0 P
+X T2OUT 7 0 -600 200 R 50 50 0 0 P
+X R2IN 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1200 0 200 L 50 50 0 0 P
+X GND 15 1200 -100 200 L 50 50 0 0 P
+X T1OUT 14 1200 -200 200 L 50 50 0 0 P
+X R1IN 13 1200 -300 200 L 50 50 0 0 P
+X R1OUT 12 1200 -400 200 L 50 50 0 0 P
+X T1IN 11 1200 -500 200 L 50 50 0 0 P
+X T2IN 10 1200 -600 200 L 50 50 0 0 P
+X R2OUT 9 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

@@ -54,6 +54,21 @@ X ~ 5 450 -400 197 U 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
+# button
+#
+DEF button SW 0 40 Y Y 1 F N
+F0 "SW" 200 -150 50 H V C CNN
+F1 "button" 200 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 250 0 400 0 0 1 0 N
+P 3 0 1 0 0 0 100 0 200 100 N
+X ~ 1 -100 0 100 R 50 50 1 1 U
+X ~ 2 500 0 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
 # buzzer
 #
 DEF buzzer PZ 0 40 Y Y 1 F N

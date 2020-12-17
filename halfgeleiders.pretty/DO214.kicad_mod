@@ -1,0 +1,43 @@
+
+(module DO214 (layer F.Cu) (tedit 5FD76D62)
+  (descr "DO214 AB")
+  (fp_text reference REF** (at 0.535 -2.371 0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.015)))
+  )
+  (fp_text value DO214 (at 0.535 2.421 0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.015)))
+  )
+  (fp_line (start -2.5 -1.35) (end 2.5 -1.35) (layer F.Fab) (width 0.254))
+  (fp_line (start 2.5 -1.35) (end 2.5 1.35) (layer F.Fab) (width 0.254))
+  (fp_line (start 2.5 1.35) (end -2.5 1.35) (layer F.Fab) (width 0.254))
+  (fp_line (start -2.5 1.35) (end -2.5 -1.35) (layer F.Fab) (width 0.254))
+  (fp_line (start -0.8 0.0) (end 0.65 -0.95) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0.65 -0.95) (end 0.65 0.95) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0.65 0.95) (end -0.8 0.0) (layer F.SilkS) (width 0.254))
+  (fp_poly
+    (pts
+      (xy -2.85 -0.65)
+      (xy -2.6 -0.65)
+      (xy -2.6 0.7)
+      (xy -2.85 0.7)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 2.6 -0.65)
+      (xy 2.85 -0.65)
+      (xy 2.85 0.7)
+      (xy 2.6 0.7)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.0 -1.05)
+      (xy -0.7 -1.05)
+      (xy -0.7 1.05)
+      (xy -1.0 1.05)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (pad C smd rect (at -2.05 0.0) (size 1.8 1.7) (layers F.Cu F.Mask F.Paste))
+  (pad A smd rect (at 2.05 0.0) (size 1.8 1.7) (layers F.Cu F.Mask F.Paste))
+)

@@ -1,0 +1,8 @@
+(module "header 4 pin" (layer F.Cu) (tedit 5FCF65C9)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "header 4 pin" (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

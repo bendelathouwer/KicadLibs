@@ -465,6 +465,13 @@
     (symbol "crystal_0_1"
       (polyline
         (pts
+          (xy 3.81 1.27)
+          (xy 3.81 -1.27)
+        )
+        (stroke (width 0.0006)) (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 0 0)
           (xy 0 1.27)
           (xy 0 0)
@@ -479,13 +486,6 @@
           (xy 2.54 -1.27)
           (xy 1.27 -1.27)
           (xy 1.27 1.27)
-        )
-        (stroke (width 0.0006)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 3.81 -1.27)
         )
         (stroke (width 0.0006)) (fill (type none))
       )
@@ -597,6 +597,29 @@
       (pin input line (at 5.08 0 180) (length 2.54)
         (name "" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "vanalles:mounting_hole" (in_bom yes) (on_board yes)
+    (property "Reference" "con" (id 0) (at -1.016 0.1524 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "mounting_hole" (id 1) (at 0.8636 4.572 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "mounting_hole_0_1"
+      (circle (center 0 0) (radius 2.8398) (stroke (width 0.1524)) (fill (type none)))
+    )
+    (symbol "mounting_hole_1_1"
+      (pin input line (at -6.35 0 0) (length 4)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )

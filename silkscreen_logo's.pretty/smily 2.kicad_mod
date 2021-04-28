@@ -1,0 +1,19 @@
+(footprint "smily 2" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 607D44A8)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e48e5b80-71dd-4965-9a9f-91ed012f650d)
+  )
+  (fp_text value "smily 2" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c4b9e62c-a79d-454c-9522-fddc964bf98d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3b67f055-5950-43fc-b595-e9586ace8b76)
+  )
+  (fp_line (start 2.789108 -0.028944) (end 7.590251 0.003489) (layer "F.SilkS") (width 0.12) (tstamp 7a17f5bd-1d5d-4b34-81d1-97d9b6de6a6e))
+  (fp_line (start -7.389749 -0.166511) (end -2.84 -0.16) (layer "F.SilkS") (width 0.12) (tstamp d424fb48-3ed1-43da-8feb-73fb58fe19ef))
+  (fp_arc (start -0.033436 0.248717) (end 2.789108 -0.028944) (angle 193.9039374) (layer "F.SilkS") (width 0.12) (tstamp 48b9b20c-e941-483a-9af2-a63a2d141fed))
+  (fp_arc (start 0.105141 -0.512383) (end 7.590251 0.003489) (angle 173.4152286) (layer "F.SilkS") (width 0.12) (tstamp 947df7e7-ad94-400b-b4c6-8af7496d764b))
+)

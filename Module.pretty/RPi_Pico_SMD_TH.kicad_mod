@@ -1,5 +1,5 @@
 (footprint "RPi_Pico_SMD_TH" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 5F638C80)
+  (tedit 6077E1C8)
   (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x20 2.54mm double row")
   (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
@@ -348,4 +348,24 @@
   (pad "42" smd rect (at 0 23.9 90) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 917a2df2-8ebb-45e2-810c-ff519654b66d))
   (pad "43" thru_hole oval (at 2.54 23.9) (size 1.7 1.7) (drill 1.02) (layers *.Cu *.Mask) (tstamp 1fefb94d-749e-4721-940e-14e00543f8d0))
   (pad "43" smd rect (at 2.54 23.9 90) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp dbfd1200-9afb-43c4-86c5-1751dbddcad3))
+  (model "${KICAD6_3DMODEL_DIR}/HN1x20-PinHeader_1x20_P2.54mm_Vertical.step"
+    (offset (xyz -8.800000000000001 -24 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/HN1x20-PinHeader_1x20_P2.54mm_Vertical.step"
+    (offset (xyz 8.800000000000001 -24 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Pico-R3.step"
+    (offset (xyz -10.3 -25.5 3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Pin Header 1x3 TH Pitch 2.54mm.stp"
+    (offset (xyz -2.5 -24 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
 )

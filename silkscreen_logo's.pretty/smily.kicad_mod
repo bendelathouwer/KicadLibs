@@ -1,0 +1,15 @@
+(footprint "smily" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 607D3064)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "Dwgs.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4f09a8c8-49b6-40c6-8385-4c68d83aaf6e)
+  )
+  (fp_text value "smily" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0876d19e-30ad-48fa-8226-0b7a2d1c039b)
+  )
+  (fp_line (start -6.323505 0.011263) (end -4.040111 -0.01) (layer "F.SilkS") (width 0.12) (tstamp ca83b541-a372-4143-b8b5-ee26c5df0d3a))
+  (fp_line (start 3.9 -0.01) (end 6.23 -0.02) (layer "F.SilkS") (width 0.12) (tstamp f988c272-9e49-4765-bd31-18816ef581f2))
+  (fp_arc (start -0.046741 -0.000103) (end 6.23 -0.02) (angle 180.0778731) (layer "F.SilkS") (width 0.12) (tstamp 1779fee4-cc46-4766-a281-0c1f60932757))
+  (fp_arc (start -0.070055 -0.01) (end 3.9 -0.01) (angle 180) (layer "F.SilkS") (width 0.12) (tstamp 425c2352-6659-4a0d-8229-63f34d0c256f))
+)

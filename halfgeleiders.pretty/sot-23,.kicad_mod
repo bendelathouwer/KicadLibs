@@ -1,5 +1,5 @@
 (footprint "sot-23," (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 60741511)
+  (tedit 608BAE01)
   (fp_text reference "REF**" (at 0 2.794) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c5b14641-a0a7-465b-9c36-0cefbe4f760a)
@@ -24,8 +24,8 @@
   (pad "1" smd rect (at -0.94996 1.09982) (size 0.99822 1.39954) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 699e3b32-1cba-402a-a322-6ccfac7c71e1))
   (pad "2" smd rect (at 0.94996 1.09982) (size 0.99822 1.39954) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2f15083f-a41d-4663-83c4-31dcab4d6e0e))
   (pad "3" smd rect (at 0 -1.09982) (size 0.99822 1.39954) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cc6efd19-e32e-48e6-b13e-e2878c0ee7c5))
-  (model "${KICAD6_3DMODEL_DIR}/SOT-23.step"
-    (offset (xyz 0 -0.3 0.5))
+  (model "${KICAD6_3DMODEL_DIR}/SOT23.step"
+    (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )

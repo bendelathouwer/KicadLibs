@@ -1,5 +1,5 @@
 
-(module QFN50P700X700X90-49N (layer F.Cu) (tedit 60A38172)
+(module QFN50P700X700X90-49N (layer F.Cu) (tedit 60A4F8FB)
   (descr "")
   (fp_text reference REF** (at -0.624005 -5.070305 0) (layer F.SilkS)
     (effects (font (size 1.00333070866 1.00333070866) (thickness 0.015)))

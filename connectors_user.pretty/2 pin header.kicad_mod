@@ -1,5 +1,5 @@
-(footprint "2 pin header" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 608FDFE2)
+(footprint "2 pin header" (version 20210824) (generator pcbnew) (layer "F.Cu")
+  (tedit 613888C4)
   (fp_text reference "REF**" (at 1.6 -1.5 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9bceee99-4f9b-4f84-9d82-c7b25b4b4f69)
@@ -24,13 +24,8 @@
   (fp_line (start -2.54 2.54) (end -2.54 -2.54) (layer "F.CrtYd") (width 0.12) (tstamp 89807730-76e8-40d2-86f9-b6896717ca12))
   (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask) (tstamp 3d730c8d-e94d-445e-94ce-92ed09cb4748))
   (pad "2" thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask) (tstamp 9ab618ca-7f02-43be-a8cd-0978df041ef1))
-  (model "${KICAD6_3DMODEL_DIR}/HN1x2-PinHeader_1x02_P2.54mm_Vertical.step" hide
+  (model "${KICAD_USER_MADE}/Pin Header 1x2 TH Pitch 2.54mm.stp"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/JumperSL2.STEP"
-    (offset (xyz 1.2 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

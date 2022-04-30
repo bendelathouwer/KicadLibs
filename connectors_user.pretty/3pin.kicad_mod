@@ -1,5 +1,5 @@
-(footprint "3pin" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 60893F1A)
+(footprint "3pin" (version 20210824) (generator pcbnew) (layer "F.Cu")
+  (tedit 613898CB)
   (fp_text reference "REF**" (at -3.29 3.62 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0dcea743-4473-476b-ac71-265b9fa07ecb)
@@ -24,9 +24,9 @@
   (pad "1" thru_hole circle (at -2.54 0) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask) (tstamp 4f33e231-2f5b-412e-b87c-4015d40c3f75))
   (pad "2" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask) (tstamp 6480fd29-b1a2-4d04-ade1-56991252c175))
   (pad "3" thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask) (tstamp 8966120a-e066-490d-a8e6-1830ec1794b3))
-  (model "${KICAD6_3DMODEL_DIR}/HN1x3-PinHeader_1x03_P2.54mm_Vertical.step"
-    (offset (xyz -2.54 0 0))
+  (model "${KICAD_USER_MADE}/HN1x3-PinHeader_1x03_P2.54mm_Vertical.step"
+    (offset (xyz 2.5 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 90))
   )
 )

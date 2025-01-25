@@ -14741,7 +14741,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 1.27 180)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -14759,7 +14759,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -5.08 90)
+				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "Vout"
 					(effects
